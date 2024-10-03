@@ -1,4 +1,4 @@
-public abstract class Plant implements IPlantCare {
+public abstract class Plant implements PlantCare {
 
     //Kapslar in instansvariabler med private/protected, tillgänliga genom setters&getters
     private final PlantType type;

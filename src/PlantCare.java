@@ -1,4 +1,4 @@
-public interface IPlantCare {
+public interface PlantCare {
 
     //Interface som berör vätskebehov för plantor
 
