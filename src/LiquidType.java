@@ -1,10 +1,10 @@
 public enum LiquidType {
 
-    KRANVATTEN ("kranvatten"),
-    PROTEINDRYCK ("proteindryck"),
-    MINERALVATTEN ("mineralvatten");
+    KRANVATTEN ("Kranvatten"),
+    PROTEINDRYCK ("Proteindryck"),
+    MINERALVATTEN ("Mineralvatten");
 
-    final String type;
+    public final String type;
 
     LiquidType(String t) {
         this.type = t;

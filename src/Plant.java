@@ -1,6 +1,6 @@
 public abstract class Plant implements PlantCare {
 
-    //Kapslar in instansvariabler med private/protected, tillgänliga genom setters&getters
+    //Inkapsling; instansvariabler är private/protected, tillgänliga genom setters&getters
     private final PlantType type;
     private String plantName;
     private double height;
@@ -38,7 +38,7 @@ public abstract class Plant implements PlantCare {
         return (getHeight() < 1) ? (getHeight()*100) + " cm " : getHeight() + " m ";
     }
 
-    //Dessa metoder ger olika resultat beroende på subclass av Plant som skapats
+    //Polymorfism: dessa metoder ger olika resultat beroende på subclass av Plant som skapats
     @Override
     public double getDailyLiquidNeed(){
         return this.liquidNeed;

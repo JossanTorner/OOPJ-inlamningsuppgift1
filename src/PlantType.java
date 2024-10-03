@@ -1,8 +1,8 @@
 public enum PlantType {
 
-    KAKTUS ("kaktus"),
-    PALM ("palm"),
-    KÖTTÄTARE ("köttätare");
+    KAKTUS ("Kaktus"),
+    PALM ("Palm"),
+    KÖTTÄTARE ("Köttätare");
 
     public final String type;
 

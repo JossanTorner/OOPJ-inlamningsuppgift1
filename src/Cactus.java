@@ -1,6 +1,6 @@
 public class Cactus extends Plant {
 
-    double baseLiquidLiters = 0.02;
+    private double baseLiquidLiters = 0.02;
 
     public Cactus(String plantName, double height) {
         super(plantName, height, PlantType.KAKTUS);
